@@ -1,0 +1,116 @@
+.navbar-brand img
+{
+    
+    height: 60px;
+    height: 70px;
+    padding: 10px 11px;
+}
+#navbar
+{
+    position:fixed;
+    height:auto;
+}
+.btn-primary
+{
+    font-size: 11px;
+    background-color:;
+    border:none;
+    color:white;
+    font-family: monospace;
+    height:2px;
+
+}
+.navbar-right
+{
+    padding: 2px 0;
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+li Link
+{
+    margin: 0PX;
+    color: red;
+}
+.nav-Link 
+{
+    color:white;
+    padding:5px;
+    font-size:12px;
+    font-weight: 700;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+.navbar
+{
+    background-color:hsla(9, 2%, 6%, 0.58);
+   -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 0px 6px -6px #999;  
+}
+.nav-Link button
+{
+    height:15px;
+    padding:0px 6px 3px 6px;
+}
+.nav-Link img
+{
+    height: 30px;
+    padding:3px 10px 10px 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+}
+ul li  {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding:5px;
+    margin-top: -15px;    
+    
+}
+
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: ;
+    color: ;
+    text-decoration: none;
+}
+@media screen and (min-width: 800px) {
+  div.menubar {
+    display: none;
+    
+
+  }
+ 
+}
+.nav-item
+{
+display: block;
+  
+    
+
+}
+a .badge {
+            width: 20px;
+            background: #c80910; 
+    }

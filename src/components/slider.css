@@ -1,0 +1,426 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.faa{
+  color: white;
+}
+input {
+  &:hover {
+    background-color: lighten(green, 5%);
+    cursor: pointer;
+    cursor: hand;
+  } 
+}
+#slider
+{
+  background-color: ;
+  margin-top:0px;
+}
+
+.carousel-item img
+{
+  height: 690px;
+}
+#ticket
+{
+  position: relative;
+  top: -200px;
+  background-color: transparent;
+}
+.form-control-borderless {
+    border: none;
+        background: rgba(255, 255, 255, 0.1);
+}
+.card
+{
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      
+}
+.fas
+{
+padding: 0px 0px 0px 7px;
+padding-top: 12px;
+left: 4px;
+position: relative;
+
+}
+.inputBox{
+  margin-top: -30%;
+}
+.col-auto{
+background:'#28a745';
+border:1px ;
+width: 50px;
+height:60px;
+position:relative;      
+left:0px;
+border-radius:5px 0px 0px 5px;
+}
+.form-control
+{
+  border-radius: 0px;
+  height: 50px;
+}
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    color: white;
+    box-shadow: none;
+        background: rgba(255, 255, 255, 0.1);
+}
+@media screen and (max-width: 479px) {
+     
+      .img-responsive {
+          max-height: 400px;
+      }
+}
+
+#menu-bar
+{
+  position: relative;
+  top: -200px;
+  border:none;
+  font-size:11px;
+  color: white;
+  width: 100%;
+  
+  z-index: 1;
+}
+#menu-bar li
+{
+  padding: 0px 8px 0px 8px;
+}
+#Concerts
+{
+  color: white;
+  border-bottom: 2px solid #f4538d;
+  padding:6px 14px;  
+  position: relative;
+  line-height: 20px;
+  z-index: 0;
+}
+@media screen and (max-width:479px )
+{ 
+  .hide-on-mobile{
+    display: none !important;
+  }
+} 
+  #Concerts:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#f4538d;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#Concerts:hover, #Concerts:focus, #Concerts:active {
+  color: white;
+}
+#Concerts:hover:before, #Concerts:focus:before, #Concerts:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+/*cricket*/
+#Cricket
+{
+  color: white;
+        border-bottom: 2px solid #337ab7;
+        padding:6px 20px;
+        position: relative;
+        line-height: 20px;
+        z-index: 0;
+}
+#Cricket:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#337ab7;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#Cricket:hover, #Cricket:focus, #Cricket:active {
+  color: white;
+}
+#Cricket:hover:before, #Cricket:focus:before, #Cricket:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/*Events*/
+#Events
+{
+  color: white;
+      border-bottom: 2px solid #f37435;
+      padding:6px 30px;
+      position: relative;
+      line-height: 20px;
+      z-index: 0;
+}
+#Events:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#f37435;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#Events:hover, #Events:focus, #Events:active {
+  color: white;
+}
+#Events:hover:before, #Events:focus:before, #Events:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/*Sports*/
+
+#Sports
+{
+  color: white;
+      border-bottom: 2px solid #57b952;
+        padding:6px 30px;
+        position: relative;
+        line-height: 20px;
+        z-index: 0;
+ /* Or whatever color you want */
+
+
+
+
+}
+#Sports:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#57b952;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#Sports:hover, #Sports:focus, #Sports:active {
+  color: white;
+}
+#Sports:hover:before, #Sports:focus:before, #Sports:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/*Parks*/
+
+#Parks
+{
+  color: white;
+      border-bottom: 2px solid #ed2fc3;
+        padding:6px 20px;
+        position: relative;
+        line-height: 20px;
+        z-index: 0;
+      }
+#Parks:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#ed2fc3;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#Parks:hover, #Parks:focus, #Parks:active {
+  color: white;
+}
+#Parks:hover:before, #Parks:focus:before, #Parks:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/*Restaurants*/
+#Restaurants
+{
+  color: white;
+      border-bottom: 2px solid #a32fed;
+        padding:6px 20px;
+        position: relative;
+        line-height: 20px;
+        z-index: 0;
+      }
+#Restaurants:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#a32fed;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#Restaurants:hover, #Restaurants:focus, #Restaurants:active {
+  color: white;
+}
+#Restaurants:hover:before, #Restaurants:focus:before, #Restaurants:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/*Theatre & Arts*/
+
+#Theatre
+{
+  color: white;
+      border-bottom: 2px solid #cbc631;
+        padding:6px 10px;
+        position: relative;
+        line-height: 20px;
+        z-index: 0;
+      }
+#Theatre:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#cbc631;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#Theatre:hover, #Theatre:focus, #Theatre:active {
+  color: white;
+}
+#Theatre:hover:before, #Theatre:focus:before, #Theatre:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/*Parties*/
+#Parties
+{
+  color: white;
+      border-bottom: 2px solid #f4538d;
+        padding:6px 20px;
+        position: relative;
+        line-height: 20px;
+        z-index: 0;
+      }
+#Parties:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#f4538d;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#Parties:hover, #Parties:focus, #Parties:active {
+  color: white;
+}
+#Parties:hover:before, #Parties:focus:before, #Parties:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
